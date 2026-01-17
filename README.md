@@ -1,3 +1,9 @@
+# About the Project
+
+This project demonstrates real-time hand sign and finger gesture recognition using MediaPipe’s hand pose estimation (Python) combined with lightweight machine learning models. Hand landmarks detected by MediaPipe are processed to recognize static hand signs and dynamic finger gestures using simple yet effective neural networks, optimized for real-time performance with TensorFlow Lite.
+
+The repository includes a complete, end-to-end pipeline: a live webcam demo, pre-trained TFLite models, tools for collecting custom training data, and Jupyter notebooks to retrain and extend the models with your own gestures.
+
 # Requirements
 
 * mediapipe 0.8.1
