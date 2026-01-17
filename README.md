@@ -35,6 +35,7 @@ Minimum hand tracking confidence threshold (default: 0.5)
 ```
 # Project Directory
 
+```text
 │  app.py
 │  train_hand_sign_classifier.ipynb
 │  train_finger_gesture_classifier.ipynb
@@ -56,4 +57,4 @@ Minimum hand tracking confidence threshold (default: 0.5)
 │
 └─utils
     └─cvfpscalc.py
-
+'''
