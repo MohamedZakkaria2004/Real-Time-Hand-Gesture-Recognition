@@ -16,6 +16,8 @@ python app.py
 ```
 
 --device
+
+
 Camera device index (default: 0)
 
 --width
