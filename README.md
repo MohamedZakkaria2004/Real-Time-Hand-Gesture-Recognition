@@ -71,3 +71,58 @@ Minimum hand tracking confidence (default: 0.5)
     └─cvfpscalc.py
 
 ```
+**app.py**
+
+A sample application for real-time inference.
+This script:
+
+* Performs hand sign recognition
+
+* Performs finger gesture recognition
+
+* Allows collecting training data for both models using the keyboard
+
+**train_hand_sign_classifier.ipynb**
+
+* A Jupyter Notebook used to train the hand sign recognition model using hand keypoint landmarks.
+
+**train_finger_gesture_classifier.ipynb**
+
+* A Jupyter Notebook used to train the finger gesture recognition model using fingertip coordinate history.
+
+**model/hand_sign_classifier**
+
+* This directory contains all files related to hand sign (static pose) recognition.
+
+**hand_sign.csv**
+Training dataset containing hand keypoint coordinates
+
+**hand_sign_classifier.tflite**
+* Trained TensorFlow Lite model
+
+**hand_sign_labels.csv**
+* Label definitions for hand sign classes
+
+**hand_sign_classifier.py**
+* Inference module for hand sign classification
+
+**model/finger_gesture_classifier**
+
+* This directory contains all files related to finger gesture (dynamic motion) recognition.
+
+**finger_gesture.csv**
+* Training dataset containing index fingertip coordinate history
+
+**finger_gesture_classifier.tflite**
+* Trained TensorFlow Lite model
+
+**finger_gesture_labels.csv**
+* Label definitions for finger gesture classes
+
+**finger_gesture_classifier.py**
+* Inference module for finger gesture classification
+
+**utils/cvfpscalc.py**
+
+* A utility module used to calculate and display FPS during inference.
+
