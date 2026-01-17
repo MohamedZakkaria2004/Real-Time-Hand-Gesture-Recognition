@@ -235,4 +235,5 @@ Edit labels in:
 ```bash
 model/finger_gesture_classifier/finger_gesture_labels.csv
 ```
-
+# References
+[MediaPipe Official Documentation](https://ai.google.dev/edge/mediapipe/solutions/guide)
