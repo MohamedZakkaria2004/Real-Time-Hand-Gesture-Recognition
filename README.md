@@ -7,7 +7,7 @@ This repository includes sample implementations and trained models for hand sign
 * Tensorflow 2.3.0 
 * tf-nightly 2.5.0.dev
 * scikit-learn 0.23.2
-* matplotlib 3.3.2 or Later
+* matplotlib 3.3.2 
 
 # How to run the Demo
 
