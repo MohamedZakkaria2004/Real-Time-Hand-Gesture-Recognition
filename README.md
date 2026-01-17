@@ -156,4 +156,23 @@ By default, the dataset includes three hand sign classes:
 You can add new classes (IDs 3 and above) as needed, or delete existing rows from the CSV file to rebuild the training dataset.
 <img width="1632" height="272" alt="102345725-28d26280-3fe1-11eb-9eeb-8c938e3f625b" src="https://github.com/user-attachments/assets/908a45dc-8f1c-4802-8a06-e7c1c7c12ea1" />
 
+**2. Model Training (Hand Sign Recognition)**
+
+Open the following notebook in Jupyter Notebook and run all cells from top to bottom:
+
+```bash
+train_hand_sign_classifier.ipynb
+```
+To change the number of hand sign classes:
+
+```bash
+NUM_CLASSES = 3
+```
+Modify the label definitions in:
+
+```bash
+model/hand_sign_classifier/hand_sign_labels.csv
+```
+
+
 
