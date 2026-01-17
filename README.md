@@ -139,6 +139,10 @@ The captured hand keypoint data will be saved to:
 model/hand_sign_classifier/hand_sign.csv
 ```
 
+**Key Coordinates**
+<img width="1543" height="538" alt="102242918-ed328c80-3f3d-11eb-907c-61ba05678d54" src="https://github.com/user-attachments/assets/d0e4f3d8-6b7f-494a-ba2e-bdbc9ed0fa17" />
+
+
 **CSV format:**
 
 * 1st column: Pressed number (used as the class ID)
