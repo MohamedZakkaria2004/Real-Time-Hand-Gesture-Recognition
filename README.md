@@ -174,5 +174,46 @@ Modify the label definitions in:
 model/hand_sign_classifier/hand_sign_labels.csv
 ```
 
+# Finger Gesture Training
 
+Press h to enter finger gesture data collection mode
+(displayed as MODE: Logging Point History on the screen).
 
+While in this mode, press a number key from 0 to 9 to record training data.
+The fingertip coordinate history will be saved to:
+
+```bash
+model/finger_gesture_classifier/finger_gesture.csv
+```
+
+<img width="1628" height="272" alt="102345850-54ede380-3fe1-11eb-8d04-88e351445898" src="https://github.com/user-attachments/assets/ff227272-38a0-4cdb-8474-25cdd0ff1781" />
+
+**CSV format:**
+
+* 1st column: Pressed number (used as the class ID)
+
+* 2nd column onward: Index fingertip coordinate history (temporal data)
+
+You can freely add new gesture classes (IDs 4 and above) or remove existing rows from the CSV file to rebuild the training dataset.
+
+**Model Training (Finger Gesture Recognition)**
+
+Open the following notebook in Jupyter Notebook and run all cells from top to bottom:
+
+```bash
+train_finger_gesture_classifier.ipynb
+```
+
+To change the number of finger gesture classes:
+
+* Update the value of:
+```bash
+NUM_CLASSES = 4
+```
+
+* Modify the label definitions in:
+```bash
+model/finger_gesture_classifier/finger_gesture_labels.csv
+```
+
+Ensure the number of labels matches the number of classes used during training.
