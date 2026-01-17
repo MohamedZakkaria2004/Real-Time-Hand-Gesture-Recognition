@@ -8,3 +8,9 @@ This repository includes sample implementations and trained models for hand sign
 * tf-nightly 2.5.0.dev
 * scikit-learn 0.23.2
 * matplotlib 3.3.2 or Later
+
+# How to run the Demo
+
+To run the demo using webcam, run this command:
+
+''' python app.py '''
