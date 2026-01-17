@@ -21,16 +21,26 @@ python app.py
 Camera device index (default: 0)
 
 --width
+
+
 Camera capture width (default: 960)
 
 --height
+
+
 Camera capture height (default: 540)
 
 --use_static_image_mode
+
+
 Enables MediaPipe’s static image mode (default: disabled)
 
 --min_detection_confidence
+
+
 Minimum hand detection confidence (default: 0.5)
 
 --min_tracking_confidence
+
+
 Minimum hand tracking confidence (default: 0.5)
