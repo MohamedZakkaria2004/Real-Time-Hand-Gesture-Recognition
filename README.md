@@ -57,4 +57,3 @@ Minimum hand tracking confidence threshold (default: 0.5)
 │
 └─utils
     └─cvfpscalc.py
-'''
