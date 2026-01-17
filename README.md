@@ -120,3 +120,40 @@ _finger_gesture_classifier.py_
 
 _utils/cvfpscalc.py_
 * A utility module used to calculate and display the current frames per second (FPS) during inference.
+
+# Model Training
+
+The hand sign and finger gesture recognition models can be updated by adding new training data and retraining the models accordingly.
+
+**Hand sign recognition training**
+
+**1. Training Data Collection (Hand Sign Recognition)**
+
+Press k to enter hand sign data collection mode
+(displayed as MODE: Logging Key Point on the screen).
+
+While in this mode, press a number key from 0 to 9 to record training data.
+The captured hand keypoint data will be saved to:
+
+```bash
+model/hand_sign_classifier/hand_sign.csv
+```
+
+**CSV format:**
+
+* 1st column: Pressed number (used as the class ID)
+
+* 2nd column onward: Hand keypoint coordinates
+
+By default, the dataset includes three hand sign classes:
+
+* 0: Open hand
+
+* 1: Closed hand
+
+* 2: Pointing
+
+You can add new classes (IDs 3 and above) as needed, or delete existing rows from the CSV file to rebuild the training dataset.
+<img width="1632" height="272" alt="102345725-28d26280-3fe1-11eb-9eeb-8c938e3f625b" src="https://github.com/user-attachments/assets/908a45dc-8f1c-4802-8a06-e7c1c7c12ea1" />
+
+
