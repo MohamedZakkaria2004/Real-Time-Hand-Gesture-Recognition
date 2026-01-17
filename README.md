@@ -44,3 +44,30 @@ Minimum hand detection confidence (default: 0.5)
 
 
 Minimum hand tracking confidence (default: 0.5)
+
+# Project Directory Structure
+
+```bash
+│  app.py
+│  train_hand_sign_classifier.ipynb
+│  train_finger_gesture_classifier.ipynb
+│
+├─model
+│  ├─hand_sign_classifier
+│  │  │  hand_sign.csv
+│  │  │  hand_sign_classifier.hdf5
+│  │  │  hand_sign_classifier.py
+│  │  │  hand_sign_classifier.tflite
+│  │  └─ hand_sign_labels.csv
+│  │
+│  └─finger_gesture_classifier
+│      │  finger_gesture.csv
+│      │  finger_gesture_classifier.hdf5
+│      │  finger_gesture_classifier.py
+│      │  finger_gesture_classifier.tflite
+│      └─ finger_gesture_labels.csv
+│
+└─utils
+    └─cvfpscalc.py
+
+```
