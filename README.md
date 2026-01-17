@@ -16,3 +16,23 @@ To run the demo using webcam, run this command:
 ```bash
 python app.py
 ```
+
+The below options can be specified when the demo is running:
+
+--device
+Camera device index to use (default: 0)
+
+--width
+Capture width (default: 960)
+
+--height
+Capture height (default: 540)
+
+--use_static_image_mode
+Enables MediaPipe’s static_image_mode (useful if you want frame-by-frame detection instead of tracking; default: off)
+
+--min_detection_confidence
+Minimum hand detection confidence threshold (default: 0.5)
+
+--min_tracking_confidence
+Minimum hand tracking confidence threshold (default: 0.5)
