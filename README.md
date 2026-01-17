@@ -20,9 +20,9 @@ python app.py
 The below options can be specified when the demo is running:
 
 --device
-Camera device index to use (default: 0)
+\Camera device index to use (default: 0)
 
-\--width
+--width
 Capture width (default: 960)
 
 --height
