@@ -15,32 +15,32 @@ You can run a real-time inference demo using your webcam.
 python app.py
 ```
 
---device
+**--device**
 
 
 Camera device index (default: 0)
 
---width
+**--width**
 
 
 Camera capture width (default: 960)
 
---height
+**--height**
 
 
 Camera capture height (default: 540)
 
---use_static_image_mode
+**--use_static_image_mode**
 
 
 Enables MediaPipe’s static image mode (default: disabled)
 
---min_detection_confidence
+**--min_detection_confidence**
 
 
 Minimum hand detection confidence (default: 0.5)
 
---min_tracking_confidence
+**--min_tracking_confidence**
 
 
 Minimum hand tracking confidence (default: 0.5)
