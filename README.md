@@ -13,4 +13,6 @@ This repository includes sample implementations and trained models for hand sign
 
 To run the demo using webcam, run this command:
 
-''' python app.py
+```bash
+python app.py
+```
