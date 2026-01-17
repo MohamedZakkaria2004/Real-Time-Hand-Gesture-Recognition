@@ -78,45 +78,45 @@ _train_finger_gesture_classifier.ipynb_
 
 * A Jupyter Notebook used to train the finger gesture recognition model from point-history (temporal motion) data.
 
-# Model Directories
+**Model Directories**
 
-# model/hand_sign_classifier
+_model/hand_sign_classifier_
 
 * This directory contains all resources related to hand sign (static pose) recognition.
 
-# Contents:
+**Contents:**
 
-# hand_sign.csv
+_hand_sign.csv_
 * Training dataset containing hand keypoint landmarks
 
-# hand_sign_classifier.tflite
+_hand_sign_classifier.tflite_
 * Trained TensorFlow Lite model for real-time inference
 
-# hand_sign_labels.csv
+_hand_sign_labels.csv_
 * Label definitions for hand sign classes
 
-# hand_sign_classifier.py
+_hand_sign_classifier.py_
 * Inference module for hand sign classification
 
-# model/finger_gesture_classifier
+_model/finger_gesture_classifier_
 
 * This directory contains all resources related to finger gesture (dynamic motion) recognition.
 
-# Contents:
+**Contents:**
 
-# finger_gesture.csv
+_finger_gesture.csv_
 * Training dataset containing index finger coordinate history
 
-# finger_gesture_classifier.tflite
+_finger_gesture_classifier.tflite_
 * Trained TensorFlow Lite model for real-time inference
 
-# finger_gesture_labels.csv
+_finger_gesture_labels.csv_
 * Label definitions for finger gesture classes
 
-# finger_gesture_classifier.py
+_finger_gesture_classifier.py_
 * Inference module for finger gesture classification
 
-# Utilities
+**Utilities**
 
-# utils/cvfpscalc.py
+_utils/cvfpscalc.py_
 * A utility module used to calculate and display the current frames per second (FPS) during inference.
