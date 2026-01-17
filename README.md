@@ -61,7 +61,7 @@ Minimum hand tracking confidence threshold (default: 0.5)
 
 # File & Directory Overview
 
-# app.py
+_app.py_
 
 * A sample application for real-time hand gesture inference using a webcam.
 * This script performs hand sign recognition and finger gesture recognition, and also supports collecting training data:
@@ -70,11 +70,11 @@ Minimum hand tracking confidence threshold (default: 0.5)
 
 * Finger gesture recognition: index finger coordinate history over time
 
-# train_hand_sign_classifier.ipynb
+_train_hand_sign_classifier.ipynb_
 
 * A Jupyter Notebook used to train the hand sign recognition model from keypoint landmark data.
 
-# train_finger_gesture_classifier.ipynb
+_train_finger_gesture_classifier.ipynb_
 
 * A Jupyter Notebook used to train the finger gesture recognition model from point-history (temporal motion) data.
 
